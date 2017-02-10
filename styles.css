@@ -1,0 +1,11 @@
+ul.answer_list {
+	list-style: none;
+}
+
+span.answer {
+	margin-left: 1em;
+}
+
+.answer_list li {
+	margin: .5em;
+}

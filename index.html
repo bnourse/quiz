@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<script type="text/javascript" src = "scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+
+	<h1>Quiz!</h1>
+	<div class = "scoreboard">
+		<p>Questions Asked: <span class = "question_count">0</span></p>
+		<p>Correct Answers: <span class = "correct_count">0</span></p>
+	</div>
+
+	<div id = "question_area">
+		<!-- question gets cloned into here -->
+	</div>
+
+
+
+	<div id = "question_template" style = "display: none">
+		<form class = "question" >
+			<p class = "question_text">Question goes here?</p>
+			<ul class = "answer_list">
+				<li><input type = "radio" name="answer" value="1"><span class = "answer">Answer 1</span></li>
+				<li><input type = "radio" name="answer" value="2"><span class = "answer">Answer 2</span></li>
+				<li><input type = "radio" name="answer" value="3"><span class = "answer">Answer 3</span></li>
+				<li><input type = "radio" name="answer" value="4"><span class = "answer">Answer 4</span></li>
+			</ul>
+			<button type = "submit">Submit Answer</button>
+		</form>>
+	</div>
+
+</body>
+</html>
